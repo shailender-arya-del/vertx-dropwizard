@@ -1,0 +1,1 @@
+java -Xmx512M -Xms512M -XX:+PrintGCDetails -Xloggc:logs/gc.log -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -jar target/vertxDropWiz-0.0.1-SNAPSHOT-fat.jar -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=12345 -Dvertx.metrics.options.configPath=monitor.json

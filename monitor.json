@@ -1,0 +1,13 @@
+{
+    "enabled" : true,
+    "jmxEnabled":true,
+    "registryName":"waybillAsAService",
+    "jmxDomain":"waybillServ",
+    "monitoredHttpServerUri" : [
+      {
+        "value" : "/waybill.*",
+        "type" : "REGEX"
+      }
+    ]
+}
+
